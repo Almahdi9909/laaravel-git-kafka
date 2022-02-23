@@ -6,7 +6,8 @@ use Illuminate\Http\Request;
 
 class resolveConflictController extends Controller
 {
-    function retriveHelloVersion(){
+
+    function retriveNewVersion(){
         return view('hello');
     }
 }
